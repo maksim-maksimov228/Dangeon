@@ -11,7 +11,7 @@ PImage wallImage;
 PImage doorImage;
 PImage coinImage;
 PImage antiCoinImage;
-PImage acidImage;
+Sprite acidImage;
 PImage goldImage;
 Sprite playerImage;
 
@@ -33,9 +33,9 @@ wallImage = loadImage("wall.png");
 doorImage = loadImage("door.png");
 coinImage = loadImage("coin.png");
 antiCoinImage = loadImage("anticoin.png");
-acidImage = loadImage("acid.png");
+acidImage = new Sprite("acid/acid", 5, ".png");
 goldImage = loadImage("Gold.png");
-playerImage = loadImage("player.png");
+playerImage = new Sprite("player/player", 4, ".png");
 }
 
 class Sprite {

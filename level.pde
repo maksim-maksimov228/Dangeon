@@ -65,7 +65,7 @@ void drawLevel() {
         image(antiCoinImage, pixelX, pixelY, cellSize, cellSize);
         break;
       case 'A':
-        image(acidImage, pixelX, pixelY, cellSize, cellSize);
+        acidImage.draw(pixelX, pixelY, cellSize, cellSize);
         break;
       }
     }
